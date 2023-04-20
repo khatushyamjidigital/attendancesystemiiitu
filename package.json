@@ -1,0 +1,28 @@
+{
+  "name": "attendance-system-apis",
+  "version": "1.0.0",
+  "description": "attendence system",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AttendanceSystemIITUNA/attendance-system-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AttendanceSystemIITUNA/attendance-system-backend/issues"
+  },
+  "homepage": "https://github.com/AttendanceSystemIITUNA/attendance-system-backend#readme"
+}
