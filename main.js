@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cors({
     origin: `http://localhost:${PORT}`,
     origin: 'http://localhost:3000',
-    origin: `https://illustrious-youtiao-258f07.netlify.app`
+    origin: `https://attendancesystem.co.in`
 }))
 
 app.use('/api', router)
